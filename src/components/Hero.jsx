@@ -1,16 +1,27 @@
-import React from 'react';
+import React,{useState, useEffect} from 'react';
 import selfieCut from '../assets/selfiecut.png'
 
 
 
 
+
 const Hero = () => {
+const [loading, setLoading] = useState(true)
+
+useEffect(() => {
+// setLoading(true)
+setTimeout(() => {
+   setLoading(false)
+}, 2000)
+},[])
 
 
   return (
-
+    
 <div className="hero h-screen w-full bg-base-100 carousel-item touch-pan-down snap-end z-40" >
-
+{loading ? <div className='w-screen h-screen bg-base-100 flex justify-center items-center'>
+<span className="loader"></span>
+</div> :
   <div className="hero-content flex-col lg:flex-row-reverse overflow-clip relative h-full">
      <div className=' relative isolate overflow-hidden flex-shrink-0 rounded-lg outline outline-secondary outline-2 outline-offset-8 bottom-10'>
         <div className='selfie_bg w-[9000px] h-full absolute flex-shrink-0' ></div>
@@ -22,14 +33,14 @@ const Hero = () => {
               coding in React, refining my UI/UX skills, and loving the process
               as much as the outcome.</p>
       <a href='#about'>
-        {/* <button  className="btn btn-primary text-white shadow-md">Get Started</button> */}
+        <button  className="btn btn-primary text-white shadow-md relative top-14">
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets7.lottiefiles.com/packages/lf20_dxwu3xu0.json"  background="transparent"  speed="1"  styles="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+       </button>
       </a>     
     </div>
   </div>
-  <div  className="relative top-[350px]">
-          <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-<lottie-player src="https://assets4.lottiefiles.com/packages/lf20_ngbe887x.json"  background="transparent"  speed="1"  style={{width: 'max-content', height: 'max-content'}}  loop  autoplay></lottie-player>
-  </div>
+}
 </div>
 
   )

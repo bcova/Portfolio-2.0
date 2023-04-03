@@ -1,5 +1,4 @@
 import React from 'react'
-import {MdDownload} from 'react-icons/md'
 import selfieCut from '../assets/selfiecut.png'
 import '@lottiefiles/lottie-player';
 
