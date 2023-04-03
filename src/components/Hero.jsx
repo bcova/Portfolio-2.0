@@ -33,7 +33,7 @@ setTimeout(() => {
               coding in React, refining my UI/UX skills, and loving the process
               as much as the outcome.</p>
       <a href='#about'>
-        <button  className="btn btn-primary text-white shadow-md relative top-14">
+        <button  className="btn btn-primary text-white shadow-md relative top-8">
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_dxwu3xu0.json"  background="transparent"  speed="1"  styles="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
        </button>
