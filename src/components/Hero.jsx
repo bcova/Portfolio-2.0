@@ -18,11 +18,11 @@ setTimeout(() => {
 
   return (
     
-<div className="hero h-screen w-full bg-base-100 carousel-item touch-pan-down snap-end z-40" >
+<div className="hero h-screen w-full bg-base-100 carousel-item touch-none snap-end z-40" >
 {loading ? <div className='w-screen h-screen bg-base-100 flex justify-center items-center'>
 <span className="loader"></span>
 </div> :
-  <div className="hero-content flex-col lg:flex-row-reverse overflow-clip relative h-full">
+  <div className="hero-content flex-col lg:flex-row-reverse overflow-clip relative h-full bottom-10">
      <div className=' relative isolate overflow-hidden flex-shrink-0 rounded-lg outline outline-secondary outline-2 outline-offset-8 bottom-10'>
         <div className='selfie_bg w-[9000px] h-full absolute flex-shrink-0' ></div>
               <img src={selfieCut} className="max-w-xs sm:max-w-sm rounded-lg relative drop-shadow-[0_9px_9px_rgba(0,0,0,0.8)] scale-[1.1]" />
