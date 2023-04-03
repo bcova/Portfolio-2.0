@@ -8,13 +8,8 @@ const Projects2 = () => {
   return (
     <div
       id="projects"
-      className="carousel-item h-screen text-white select-none snap-end justify-center items-center">
-    {/* <div className="grid grid-rows-2 grid-cols-2 justify-center gap-10 ">
-      <div id="todo" className="bg-red-900 w-80 h-80 rounded-lg outline outline-secondary outline-2 outline-offset-4"></div>
-      <div id="login" className="bg-amber-600 w-80 h-80 rounded-lg outline outline-secondary outline-2 outline-offset-4"></div>
-      <div id="weather" className="bg-lime-900 w-80 h-80 rounded-lg outline outline-secondary outline-2 outline-offset-4"></div>
-      <div id="tictac" className="bg-blue-900 w-80 h-80 rounded-lg outline outline-secondary outline-2 outline-offset-4"></div>
-    </div> */}
+      className="carousel-item h-screen text-white select-none snap-end justify-center items-center flex flex-col relative">
+
     <fieldset className="border-2 border-secondary rounded-lg shadow-lg bg-zinc-900 bg-opacity-50 p-5 ">
       <legend className="text-5xl px-2 py-2 text-primary tracking-wide rounded-md outline outline-2 bg-base-100">Projects</legend>
       <div className="carousel w-80 sm:w-96 sm:h-96 rounded-md">
@@ -28,6 +23,7 @@ const Projects2 = () => {
       <a href="https://github.com/bcova/TodoVue" className="btn btn-primary">Code</a>
       <a href="https://idyllic-sprinkles-34ca22.netlify.app/" className="btn btn-primary">Site</a>
     </div>
+    <div className="w-fit h-fit absolute top-0 left-0 bg-primary rounded-tr-md rounded-br-md p-1">Todo App</div>
   </div> 
   <div id="slide2" className="carousel-item relative w-full overflow-clip">
     <img src={login} className="object-cover h-full sm:scale-125 scale-[1.5] top-14" />
@@ -39,6 +35,7 @@ const Projects2 = () => {
       <a href="https://github.com/bcova/login" className="btn btn-primary">Code</a>
       <a href="https://chimerical-faloodeh-2dc686.netlify.app" className="btn btn-primary">Site</a>
     </div>
+    <div className="w-fit h-fit absolute top-0 left-0 bg-primary rounded-tr-md rounded-br-md p-1">Login Design</div>
   </div> 
   <div id="slide3" className="carousel-item relative w-full overflow-clip">
     <img src={weatherApp} className="object-cover scale-[1.6]" />
@@ -50,6 +47,7 @@ const Projects2 = () => {
       <a href="https://github.com/bcova/WeatherApp" className="btn btn-primary">Code</a>
       <a href="https://stunning-dodol-b72247.netlify.app" className="btn btn-primary">Site</a>
     </div>
+    <div className="w-fit h-fit absolute top-0 left-0 bg-primary rounded-tr-md rounded-br-md p-1">Weather App</div>
   </div> 
   <div id="slide4" className="carousel-item relative w-full">
     <img src={tictac} className="object-cover" />
@@ -61,9 +59,11 @@ const Projects2 = () => {
       <a href="https://github.com/bcova/Tic-Tac-Toe" className="btn btn-primary">Code</a>
       <a href="https://frabjous-bavarois-909bfa.netlify.app" className="btn btn-primary">Site</a>
     </div>
+    <div className="w-fit h-fit absolute top-0 left-0 bg-primary rounded-tr-md rounded-br-md p-1">Tic-Tac-Toe App</div>
   </div>
 </div>
 </fieldset>
+
     </div>
   );
 };

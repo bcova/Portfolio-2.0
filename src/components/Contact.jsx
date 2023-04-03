@@ -53,7 +53,7 @@ render(){
                 >
             </lottie-player>
             </span>
-            <input enterKeyHint="next" type="email" required placeholder="Enter email here..." name='email' className="input input-bordered focus:outline-secondary caret-primary touch-pan-y focus:placeholder:invisible border-primary" id="email"/>
+            <input enterKeyHint="next" type="email" required placeholder="Enter email here..." name='email' className="input input-bordered focus:outline-none caret-primary touch-pan-y focus:placeholder:invisible border-primary" id="email"/>
             <button className=" absolute bottom-2 right-2" onClick={() => document.getElementById('email').value = ''}><img src={clear} className='w-7 '/></button>
         </label>
         <label className="input-group relative">
@@ -66,11 +66,11 @@ render(){
                 >
             </lottie-player>
             </span>
-            <input enterKeyHint="next" type="text" required placeholder="Enter name here..." name='name' className="input input-bordered focus:outline-secondary caret-primary focus:placeholder:invisible border-primary" id="name"/>
+            <input enterKeyHint="next" type="text" required placeholder="Enter name here..." name='name' className="input input-bordered focus:outline-none caret-primary focus:placeholder:invisible border-primary" id="name"/>
             <button className=" absolute bottom-2 right-2" onClick={() => document.getElementById('name').value = ''}><img src={clear} className='w-7 '/></button>
         </label>
 
-        <textarea enterKeyHint="done" required className="textarea min-h-[200px] max-h-[200px] caret-primary focus:outline-secondary touch-pan-y border-primary" placeholder="Type message here..."></textarea>
+        <textarea enterKeyHint="done" required className="textarea min-h-[200px] max-h-[200px] caret-primary focus:outline-none touch-pan-y border-primary" placeholder="Type message here..."></textarea>
         <button className="btn btn-primary" type="submit">Submit</button>
       </div>
       </form>
