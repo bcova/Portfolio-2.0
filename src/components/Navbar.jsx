@@ -34,7 +34,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a href='https://docs.google.com/document/d/11L3OGDWt-HbtWCH_wjYvmk-mPzS92BIZ/edit?usp=sharing&ouid=117350159220233205710&rtpof=true&sd=true' className="btn btn-primary text-white flex flex-row overflow-hidden p-2 ">
+    <a href='https://docs.google.com/document/d/1IP_cM-MVuT-8KUx91ZAcNedn5Rwliog_/edit?usp=sharing&ouid=117350159220233205710&rtpof=true&sd=true' className="btn btn-primary text-white flex flex-row overflow-hidden p-2 ">
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js">
         </script>
         <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_7iqfdthd.json" 
