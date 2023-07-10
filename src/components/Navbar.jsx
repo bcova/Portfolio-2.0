@@ -18,10 +18,10 @@ const Navbar = () => {
         <svg xmlns="http://www.w3.org/2000/svg" className="h-9 w-9 stroke-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
       </label>
       <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 border-2 border-primary">
-      <li className='group/about'><a href='#about'  className='group-hover/about:outline-2 group-hover/about:outline-secondary outline-offset-4 '>About</a></li>
-      <li className='group/skills'><a  href='#skills' className='group-hover/skills:outline-2 group-hover/skills:outline-secondary outline-offset-4'>Skills</a></li>
-      <li className='group/projects'><a href='#projects' className='group-hover/projects:outline-2 group-hover/projects:outline-secondary outline-offset-4'>Projects</a></li>
-      <li className='group/contact'><a href='#contact' className='group-hover/contact:outline-2 group-hover/contact:outline-secondary outline-offset-4'>Contact</a></li>
+      <li className='group/about'><a href='#about' className='group-hover/about:outline-2 group-hover/about:outline-secondary outline-offset-4'><p className='group-hover/about:translate-x-3 duration-200'>About</p></a></li>
+      <li className='group/skills'><a  href='#skills' className='group-hover/skills:outline-2 group-hover/skills:outline-secondary outline-offset-4'><p className='group-hover/skills:translate-x-3 duration-200'>Skills</p></a></li>
+      <li className='group/projects'><a href='#projects' className='group-hover/projects:outline-2 group-hover/projects:outline-secondary outline-offset-4'><p className='group-hover/projects:translate-x-3 duration-200'>Projects</p></a></li>
+      <li className='group/contact'><a href='#contact' className='group-hover/contact:outline-2 group-hover/contact:outline-secondary outline-offset-4'><p className='group-hover/contact:translate-x-3 duration-200'>Contact</p></a></li>
       </ul>
     </div>
   </div>
