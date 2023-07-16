@@ -1,5 +1,6 @@
 import React,{useState, useEffect} from 'react';
 import selfieCut from '../assets/selfiecut.png'
+import selfieCutPS from '../assets/selfiecut-PS.png'
 
 
 
@@ -9,12 +10,13 @@ const Hero = () => {
 const [loading, setLoading] = useState(true)
 
 useEffect(() => {
-const img = document.querySelector('img')
-img.onload = () => {
+// const img = document.querySelector('img')
+// img.onload = () => {
+//   console.log('IMG')
   setTimeout(() => {
      setLoading(false)
-  }, 1000)
-}
+  }, 500)
+// }
 },[])
 
 
@@ -27,7 +29,7 @@ img.onload = () => {
   <div className="hero-content flex-col lg:flex-row-reverse overflow-clip relative h-full bottom-10">
      <div className=' relative isolate overflow-hidden flex-shrink-0 rounded-lg outline outline-secondary outline-2 outline-offset-8 bottom-10'>
         <div className='selfie_bg w-[9000px] h-full absolute flex-shrink-0' ></div>
-              <img src={selfieCut} className="max-w-xs sm:max-w-sm rounded-lg relative drop-shadow-[0_9px_9px_rgba(0,0,0,0.8)] scale-[1.1]" />
+              <img src={selfieCutPS} className="max-w-xs sm:max-w-sm rounded-lg relative drop-shadow-[0_9px_9px_rgba(0,0,0,0.8)] scale-[1.1]" />
      </div>
     <div className='text-center about'>
       <h1 className="text-5xl font-bold tracking-wide">Hi there, I'm Brandon.</h1>

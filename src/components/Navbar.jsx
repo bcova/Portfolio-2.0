@@ -1,5 +1,5 @@
 import React from 'react'
-import selfieCut from '../assets/selfiecut.png'
+import selfieCut from '../assets/selfiecut-PS.png'
 import '@lottiefiles/lottie-player';
 
 
