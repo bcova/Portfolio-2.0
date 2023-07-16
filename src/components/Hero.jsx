@@ -22,7 +22,7 @@ const Hero = () => {
           <span className="loader"></span>
         </div>
       ) : (
-        <div className="hero-content flex-col lg:flex-row-reverse overflow-clip relative h-full bottom-10">
+        <div className="hero-content flex-col lg:flex-row-reverse overflow-clip relative h-full bottom-12">
           <div className=" relative isolate overflow-hidden flex-shrink-0 rounded-lg outline outline-secondary outline-2 outline-offset-8 ">
             <div className="selfie_bg w-[9000px] h-full absolute flex-shrink-0"></div>
             <img
