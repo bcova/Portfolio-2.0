@@ -10,13 +10,13 @@ const Hero = () => {
 const [loading, setLoading] = useState(true)
 
 useEffect(() => {
-// const img = document.querySelector('img')
-// img.onload = () => {
-//   console.log('IMG')
+const img = document.querySelector('img')
+img.onload = () => {
+  console.log('IMG')
   setTimeout(() => {
      setLoading(false)
   }, 500)
-// }
+}
 },[])
 
 
