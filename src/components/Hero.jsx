@@ -35,7 +35,7 @@ const Hero = () => {
               Hi there! I'm Brandon.
             </h2>
             <p className="py-6 tracking-wide text-left">
-            As a soon-to-be father, amateur photographer, and passionate drummer, I have always been curious about the world of technology and what the future holds. I enjoy immersing myself in my hobbies and developing my abilities. My days are spent honing my coding skills and prepping for fatherhood. I aspire to join a top-notch team in the near future and demonstrate my expertise! 
+            As a soon-to-be father, amateur photographer, and passionate drummer, I have always been curious about the world of technology and what the future holds. I enjoy immersing myself in my hobbies and developing my abilities. My days are spent honing my coding skills and prepping for fatherhood. I aspire to join a top-notch team where I can demonstrate my expertise! 
             </p>
             <a href="#about">
               <button className="btn btn-primary text-white shadow-md relative top-8">
