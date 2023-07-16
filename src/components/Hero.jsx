@@ -32,7 +32,7 @@ const Hero = () => {
           </div>
           <div className="text-center about relative top-7  ">
             <h2 className="text-3xl font-bold tracking-wide">
-              Hi there! I'm <span className="underline decoration-secondary">Brandon</span>.
+              Hi there! I'm Brandon.
             </h2>
             <p className="py-6 tracking-wide text-left">
             As a soon-to-be father, amateur photographer, and passionate drummer, I have always been curious about the world of technology and what the future holds. I enjoy immersing myself in my hobbies and developing my abilities. My days are spent honing my coding skills and prepping for fatherhood. I aspire to join a top-notch team in the near future and demonstrate my expertise! 
