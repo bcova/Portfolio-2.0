@@ -31,7 +31,7 @@ const Hero = () => {
             />
           </div>
           <div className="text-center about relative top-7  ">
-            <h2 className="text-5xl font-bold tracking-wide">
+            <h2 className="text-3xl font-bold tracking-wide">
               Hi there! I'm <span className="underline decoration-secondary">Brandon</span>.
             </h2>
             <p className="py-6 tracking-wide text-left">
