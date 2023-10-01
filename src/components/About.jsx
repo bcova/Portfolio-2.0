@@ -6,14 +6,11 @@ const About = () => {
   return (
     <div id="about" className="carousel-item h-screen text-white justify-center items-center  px-6 select-none overflow-hidden snap-end">
       <fieldset className="border-2 border-secondary rounded-lg shadow-lg bg-zinc-900 bg-opacity-50">
-      <legend className="text-5xl ml-6 px-2 text-primary tracking-wide rounded-md outline outline-2 bg-base-100 ">About</legend>
-      <div className="max-w-sm max-h-[600px] sm:max-w-6xl rounded-lg sm:h-96">
-        <div className="p-3 flex items-center justify-center flex-col">
-            <p className="tracking-wide sm:tracking-wider sm:leading-6 first-letter:text-3xl">
-            I'm  a recent Fullstack Academy graduate with experience in React, JS, and Tailwind. 
-            I'm passionate about creating visually appealing websites and am dedicated to delivering high-quality work.<br/><br/>
-            <span className="text-3xl">A</span>s a junior developer, I'm eager to continue learning and expanding my skills to stay ahead of the curve. I'm committed to delivering work that meets client needs and exceeds expectations.<br/><br/>
-            <span className="text-3xl">I</span>f you're looking for a hardworking and enthusiastic junior web developer to help bring your vision to life, let's work together!
+      <legend className="text-5xl ml-6 px-2 text-primary tracking-wide rounded-md outline outline-2 bg-base-100">About</legend>
+      <div className="max-w-sm max-h-[600px] sm:max-w-6xl rounded-lg sm:h-96  flex">
+        <div className="p-3 flex items-center justify-center flex-col text-lg">
+            <p className="tracking-wider leading-7 sm:tracking-wider sm:leading-8 first-letter:text-3xl">
+            As a soon-to-be father, amateur photographer, and passionate drummer, I have always been curious about the world of technology and what the future holds. I enjoy immersing myself in my hobbies and developing my abilities. My days are spent honing my coding skills and preparing for fatherhood. I aspire to join a top-notch team in the near future and demonstrate my expertise.
             </p>
 
        

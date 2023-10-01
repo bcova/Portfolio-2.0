@@ -7,7 +7,7 @@ const Navbar = () => {
 
 
   return (
-<div className="navbar bg-base-100 fixed top-0 z-10">
+<div className="navbar bg-base-200 fixed top-0 z-10 shadow-sm border-b-2 border-b-secondary">
   <div className="navbar-start">
      <div className=' relative isolate overflow-hidden flex-shrink-0 rounded-lg outline outline-secondary outline-2 w-10 h-10 sm:w-16 sm:h-16 top-1 left-1'>
         <div className='selfie_bg_nav w-[9000px] h-full absolute flex-shrink-0' ></div>

@@ -20,7 +20,7 @@ const Projects2 = () => {
       <a href="#slide5" className="btn btn-circle btn-primary">❮</a> 
       <a href="#slide2" className="btn btn-circle btn-primary">❯</a>
     </div>
-    <div className="absolute bottom-3 w-full flex justify-center gap-7 ">
+    <div className="absolute bottom-3 w-full flex justify-center gap-14 ">
       <a href="https://github.com/bcova/TodoVue" className="btn btn-primary">Code</a>
       <a href="https://idyllic-sprinkles-34ca22.netlify.app/" className="btn btn-primary">Site</a>
     </div>
@@ -32,7 +32,7 @@ const Projects2 = () => {
       <a href="#slide1" className="btn btn-circle btn-primary">❮</a> 
       <a href="#slide3" className="btn btn-circle btn-primary">❯</a>
     </div>
-    <div className="absolute bottom-3 w-full flex justify-center gap-7">
+    <div className="absolute bottom-3 w-full flex justify-center gap-14">
       <a href="https://github.com/bcova/login" className="btn btn-primary">Code</a>
       <a href="https://chimerical-faloodeh-2dc686.netlify.app" className="btn btn-primary">Site</a>
     </div>
@@ -44,7 +44,7 @@ const Projects2 = () => {
       <a href="#slide2" className="btn btn-circle btn-primary">❮</a> 
       <a href="#slide4" className="btn btn-circle btn-primary">❯</a>
     </div>
-    <div className="absolute bottom-3 w-full flex justify-center gap-7">
+    <div className="absolute bottom-3 w-full flex justify-center gap-14">
       <a href="https://github.com/bcova/WeatherApp" className="btn btn-primary">Code</a>
       <a href="https://stunning-dodol-b72247.netlify.app" className="btn btn-primary">Site</a>
     </div>
@@ -56,7 +56,7 @@ const Projects2 = () => {
       <a href="#slide3" className="btn btn-circle btn-primary">❮</a> 
       <a href="#slide5" className="btn btn-circle btn-primary">❯</a>
     </div>
-    <div className="absolute bottom-3 w-full flex justify-center gap-7">
+    <div className="absolute bottom-3 w-full flex justify-center gap-14">
       <a href="https://github.com/bcova/Tic-Tac-Toe" className="btn btn-primary">Code</a>
       <a href="https://frabjous-bavarois-909bfa.netlify.app" className="btn btn-primary">Site</a>
     </div>
@@ -68,7 +68,7 @@ const Projects2 = () => {
       <a href="#slide4" className="btn btn-circle btn-primary">❮</a> 
       <a href="#slide1" className="btn btn-circle btn-primary">❯</a>
     </div>
-    <div className="absolute bottom-3 w-full flex justify-center gap-7">
+    <div className="absolute bottom-3 w-full flex justify-center gap-14">
       <a href="https://github.com/bcova/Game" className="btn btn-primary">Code</a>
       <a href="https://transcendent-salmiakki-f31590.netlify.app/" className="btn btn-primary">Site</a>
     </div>

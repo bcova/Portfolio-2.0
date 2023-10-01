@@ -19,6 +19,7 @@
     "daisyui": "^2.51.4",
     "file-saver": "^2.0.5",
     "fscreen": "^1.2.0",
+    "gsap": "^3.12.2",
     "js-file-download": "^0.4.12",
     "lord-icon-element": "^4.0.3",
     "lottie-colorify": "^0.8.0",
